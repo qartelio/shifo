@@ -44,7 +44,7 @@ export const Features: React.FC = () => {
                  <div className="font-mono text-xs md:text-sm text-slate-300 space-y-2">
                     <p><span className="text-purple-400">const</span> <span className="text-blue-400">diagnosis</span> = <span className="text-purple-400">await</span> shifoAI.<span className="text-yellow-300">analyze</span>(patientData);</p>
                     <p className="pl-4 text-slate-500">// Processing via GraphRAG...</p>
-                    <p><span className="text-purple-400">if</span> (diagnosis.<span className="text-blue-400">confidence</span> > <span className="text-orange-400">0.98</span>) {'{'}</p>
+                    <p><span className="text-purple-400">if</span> (diagnosis.<span className="text-blue-400">confidence</span> {'>'} <span className="text-orange-400">0.98</span>) {'{'}</p>
                     <p className="pl-4"><span className="text-yellow-300">return</span> diagnosis.<span className="text-blue-400">treatmentProtocol</span>;</p>
                     <p>{'}'}</p>
                     <div className="mt-4 p-3 bg-slate-800 rounded border border-slate-700">
